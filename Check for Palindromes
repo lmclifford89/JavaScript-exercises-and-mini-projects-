@@ -1,0 +1,20 @@
+
+function palindrome(str) {
+  // Good luck!
+  //var sym = '/-\|_*';
+   var newStr = str.replace(/[-/|\():_,.*\s]/g,'').toLowerCase();
+    var finalStr = newStr.split('').reverse().join('');
+  console.log(newStr, finalStr);
+  
+  if(finalStr === newStr){
+  return true;
+  }
+  else{
+    return false;
+  }
+ 
+} 
+
+
+
+palindrome("eye");

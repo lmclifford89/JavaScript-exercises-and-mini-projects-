@@ -1,0 +1,11 @@
+
+function reverseString(str) {
+  
+  split = str.split('').reverse().join('');
+ 
+   return split;
+}
+
+reverseString("hello");
+reverseString("howdy");
+reverseString("Greetings from Earth");

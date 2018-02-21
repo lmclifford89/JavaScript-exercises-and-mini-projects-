@@ -1,0 +1,13 @@
+
+function confirmEnding(str, target) {
+ var newStr = str;
+  var newTarget = target;
+  if(newStr.substring(newStr.length - newTarget.length) != newTarget){
+    return false;
+  }
+  else{
+    return true;
+  }
+}
+
+confirmEnding("Bastian", "n");

@@ -1,0 +1,13 @@
+
+function slasher(arr, howMany) {
+  remove = arr;
+ 
+    remove.splice(0, howMany);
+  
+  return remove;
+  
+  
+  
+}
+
+slasher([1, 2, 3], 2);
